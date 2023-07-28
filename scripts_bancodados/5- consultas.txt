@@ -1,4 +1,4 @@
-####################### MAPA DAS VIEW #############################
+--####################### MAPA DAS VIEW #############################
 
 CREATE VIEW TOTAL_ALUNO AS SELECT COUNT(*) AS quantidade_total_estudantes
 	FROM estudante;
@@ -48,3 +48,6 @@ WITH facilitador_alunos_ativos AS (
 	-- 4. Além disso, vocês deverão pensar em mais uma questão que deverá ser respondida por scripts SQL que combine pelo menos 3 tabelas. 
 	
 	SELECT * FROM TURMA_FACILITADOR_ALUNO
+	
+	-- Visualilzação dos atributos da tabela ESTUDANTE_AUDITORIA
+	SELECT * FROM ESTUDANTE_AUDITORIA
